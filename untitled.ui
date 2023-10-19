@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 255);</string>
+  </property>
+  <widget class="QLabel" name="clnt">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>70</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome Cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>100</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Data Viagem</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="orgm">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>130</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Local Origem</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dstn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Local Destino</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pgmt">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Forma de Pagamento                      </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>70</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>100</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="date">
+    <date>
+     <year>2023</year>
+     <month>10</month>
+     <day>20</day>
+    </date>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>130</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>BRASIL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ARGENTINA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CHILE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COLOMBIA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>VENEZUELA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>URUGUAI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BOLÍVIA</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>160</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>ESTADOS UNIDOS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CANADÁ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>INGLATERRA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ITÁLIA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MÉXICO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CUBA</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>PIX</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CARTÃO DE CRÉDITO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BOLETO</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>CADASTRO DE VIAGEM</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
